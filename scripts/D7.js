@@ -62,6 +62,15 @@ console.log(sum)
   Scrivi una funzione che, dato un array di soli numeri e un numero n come parametri, ritorni un secondo array con tutti i valori del precedente incrementati di n
 */
 
+const n = 6
+
+const newArray = arrayEmpty.map((sum) => {
+  let result = sum + n
+  return result
+})
+
+console.log(newArray)
+
 /* ESERCIZIO 7 (map)
   Scrivi una funzione che, dato un array di stringhe, ritorni un nuovo array contenente le lunghezze delle rispettive stringhe dell'array di partenza
   es.: ["EPICODE", "is", "great"] => [7, 2, 5]
