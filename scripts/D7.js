@@ -76,6 +76,16 @@ console.log(newArray)
   es.: ["EPICODE", "is", "great"] => [7, 2, 5]
 */
 
+const epiArray = ["EPICODE", "is", "great"]
+
+const length = epiArray.map((stringLength) =>{
+  let resault = stringLength.length
+  return resault
+})
+
+console.log(length)
+
+
 /* ESERCIZIO 8 (forEach o for)
   Scrivi una funzione per creare un array contenente tutti i valori DISPARI da 1 a 99.
 */
