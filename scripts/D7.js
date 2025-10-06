@@ -35,9 +35,19 @@ console.log(arrayEmpty)
   Scrivi una funzione per ricavare solamente i valori PARI da un array composto da soli valori numerici
 */
 
+const equalNumber = (number) => {
+  let result = arrayEmpty.filter((number) => 
+  ((number) % 2 === 0)
+  )
+  return result
+}
+console.log(equalNumber())
+
 /* ESERCIZIO 4 (forEach)
   Scrivi una funzione per sommare i numeri contenuti in un array
 */
+
+
 
 /* ESERCIZIO 5 (reduce)
   Scrivi una funzione per sommare i numeri contenuti in un array
