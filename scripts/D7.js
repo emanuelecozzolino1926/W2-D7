@@ -253,6 +253,10 @@ console.log(findFilm(movies))
   Scrivi una funzione per creare un array con solamente i titoli dei film contenuti nell'array fornito.
 */
 
+const getTitles = (movies) =>  movies.map(movie => movie.Title)
+
+console.log(getTitles(movies))
+
 /* ESERCIZIO 12 (filter)
   Scrivi una funzione per ottenere dall'array fornito solamente i film usciti nel millennio corrente.
 */
