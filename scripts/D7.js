@@ -3,6 +3,19 @@
   prima e gli ultimi 3 della seconda. Converti la stringa risultante in maiuscolo e mostrala con un console.log().
 */
 
+
+//CREIAMO UNA ARROW FUNCTION UTIIZZIAMO SLICE PER TAGRIARE LE STRINGE E IL METODO UPPER CASE PER RENDERLE MAIUSCOLE
+const stringCut = (str1, str2) =>{
+
+let cutOne = str1.slice(0, 2)
+let cutTwo = str2.slice(-3)
+let totalCut = (cutOne + cutTwo).toUpperCase()
+console.log(totalCut)
+}
+
+stringCut("Computer", "Mouse")
+
+
 /* ESERCIZIO 2 (for)
   Scrivi una funzione che torni un array di 10 elementi; ognuno di essi deve essere un valore random compreso tra 0 e 100 (incluso).
 */
