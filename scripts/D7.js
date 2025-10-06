@@ -47,7 +47,12 @@ console.log(equalNumber())
   Scrivi una funzione per sommare i numeri contenuti in un array
 */
 
+let sum = 0
 
+arrayEmpty.forEach((number) => {
+sum = sum + number
+})
+console.log(sum)
 
 /* ESERCIZIO 5 (reduce)
   Scrivi una funzione per sommare i numeri contenuti in un array
